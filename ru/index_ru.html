@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Market Platform</title>
+
+    <link rel="stylesheet" href="../css/style.min.css">
+
+
+
+</head>
+
+<body>
+    <header id = "up" class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="../index.html">
+                        <img src="../icons/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__menu">
+                    <nav>
+                        <ul class="header__menu__list">
+                            <li class="header__menu__link"><a href="#advantages">О компании</a></li>
+                            <li class="header__menu__link"><a href="#services">Услуги</a></li>
+                            <li class="header__menu__link"><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn get-offer">Предложение</button>
+                    <div class="header__switch-lang">
+                        <ul class="header__switch-lang__list">
+                            <li class="header__switch-lang__link"><a href="../index.html">Cz</a></li>
+                            <li class="header__switch-lang__link"><a href="../en/index_en.html">En</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="promo">
+            <div class="container">
+                <h1 class="promo__title">Оптовая торговля металлоломом</h1>
+                <div class="promo__divider"></div>
+                <div class="promo__subtitle">Наша компания имеет колосальный опыт на рынке металлолома. Мы оказываем широкий спектр услуг и стремимся к максимальной интеграции в рынок. Наш успех основывается на четком понимании целей Компании, долгосрочном взаимовыгодном сотрудничестве с Партнерами, глубоком знании рынка, системном использовании современных технологий и готовности оперативно решать поставленные задачи.</div>
+            </div>
+        </section>
+
+        <section id = "advantages" class="advantages">
+            <div class="container">
+                <h2 class="title">Наши преимущества</h2>
+                <div class="advantages__wrapper">
+                    <div class="advantages__item">
+                        <img src="../icons/clock.svg" alt="clock" class="advantages__item__icon">
+                        <h3 class="advantages__item__title">Многолетний опыт</h3>
+                        <div class="advantages__item__descr">Компания обладает многолетним опытом во всех направлениях и сегментах отрасли</div>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="../icons/chart.svg" alt="chart" class="advantages__item__icon">
+                        <h3 class="advantages__item__title">Аналитика и прогнозирование</h3>
+                        <div class="advantages__item__descr">Наши эксперты опираются на передовые методы прогнозирования рынков, что позволяет предвидеть движение цены</div>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="../icons/gear.svg" alt="gear" class="advantages__item__icon">
+                        <h3 class="advantages__item__title">Риск-менеджмент</h3>
+                        <div class="advantages__item__descr">Наша система управления бизнес-процессами минимизирет риски и снижет затрату времени клиентам</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  class="services">
+            <div class="container">
+                <h2 id = "services" class="title">Наши услуги</h2>
+                <div class="services__wrapper">
+                    <div class="services__item">
+                        <div class="services__item__img services__item__img_bg1"></div>
+                        <h3 class="services__item__title">Трейдинг</h3>
+                        <div class="services__item__descr">Обеспечим для Вас регулярные поставки металлолома</div>
+                        <button id = "trading__btn" class="btn">Подробнее</button>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__img services__item__img_bg2"></div>
+                        <h3 class="services__item__title">Логистика</h3>
+                        <div class="services__item__descr">Доставим груз любым удобным, для Вас, способом</div>
+                        <button id = "logistic__btn" class="btn">Подробнее</button>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__img services__item__img_bg3"></div>
+                        <h3 class="services__item__title">Фрахт</h3>
+                        <div class="services__item__descr">Подберем судно, для любого объема Вашего груза</div>
+                        <button id = "freight__btn" class="btn">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="title">Наши контакты</h2>
+                <div class="contacts__wrapper">
+                    <div class="contacts__item">
+                        <form lang = "ru" class="contacts__form" action="#">
+                            <input name="name" placeholder="Ваше имя" type="text">
+                            <input name="phone" placeholder="Ваш телефон" type="number">
+                            <input name="email" placeholder="Ваш E-mail" type="email">
+                            <textarea name="message" placeholder="Сообщение" cols="30" rows="3"></textarea>
+                            <button class="btn btn_submit">Получить предложение</button>
+                        </form>
+                        <div class="policy">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item__title">Телефон:</div>
+                        <a href="tel:+420607989257" class="contacts__item__descr">+420 607 989 257</a>
+
+                        <div class="contacts__item__title">Почта:</div>
+                        <a href="mailto:csv@metal-market-platform.cz" class="contacts__item__descr">csv@metal-market-platform.cz</a>
+
+                        <div class="contacts__item__title">Адрес:</div>
+                        <div class="contacts__item__descr">Varsavska 715/36, 120 00 Praha 2</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__title">© 2022, Metal Market Platform</div>
+            <div class="footer__menu">
+                <nav>
+                    <ul class="footer__menu__list">
+                        <li class="footer__menu__link"><a href="#advantages">О компании</a></li>
+                        <li class="footer__menu__link"><a href="#services">Услуги</a></li>
+                        <li class="footer__menu__link"><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="footer__switch-lang">
+                <ul class="footer__switch-lang__list">
+                    <li class="footer__switch-lang__link"><a href="../index.html">Cz</a></li>
+                    <li class="footer__switch-lang__link"><a href="../en/index_en.html">En</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#up" class="scroll-top">
+        <img src="../icons/arrow-top.svg" alt="up">
+    </a>
+
+    <div class="overlay">
+        <div class="modal" id = "offer">
+            <div class="modal__close">&times;</div>
+            <img src="../icons/logo.svg" alt="logo" class="modal__img">
+            <form lang = "en" class="contacts__form" action="#">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваш телефон" type="number">
+                <input name="email" placeholder="Ваш E-mail" type="email">
+                <textarea name="message" placeholder="Сообщение" cols="30" rows="3"></textarea>
+                <button class="btn btn_submit">Получить предложение</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id = "thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за обращение!</div>
+            <div class="modal__descr">Наш менеджер свяжется с Вами, в ближайшее время</div>
+        </div>
+
+        <div class="modal modal_big" id = "trading">
+            <div class="modal__close">&times;</div>
+            <div class="modal_big__wrapper">
+                <div class="modal_big_bg1"><img class = "modal_big__logo" src = "../icons/logo_white.svg" alt = "logo"></div>
+                <div class="modal_big__item">
+                    <h3 class="modal_big__title">Трейдинг</h3>
+                    <div class="modal_big__descr">Мы продаем и покупаем лом черных металлов различных предприятий по переработке лома в Чехии, а так же в сранах Западной и Восточной Европе</div>
+                    <button class="btn get-offer get-offer_big">Предложение</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="modal modal_big" id = "logistic">
+            <div class="modal__close">&times;</div>
+            <div class="modal_big__wrapper">
+                <div class="modal_big_bg2"><img class = "modal_big__logo" src = "../icons/logo_white.svg" alt = "logo"></div>
+                <div class="modal_big__item">
+                    <h3 class="modal_big__title">Логистика</h3>
+                    <div class="modal_big__descr">Перечень услуг:
+                        <ul>
+                            <li>логистические операции всех видов;</li>
+                            <li>индивидуальные решения, для каждого клиента;</li>
+                            <li>оптимизация маршрутов сбора партий металлолома;</li>
+                            <li>долгосрочная аренда складов для металлолома;</li>
+                            <li>предоставление бункеров и контейнеров;</li>
+                        </ul>
+                    </div>
+                    <button class="btn get-offer get-offer_big">Предложение</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="modal modal_big" id = "freight">
+            <div class="modal__close">&times;</div>
+            <div class="modal_big__wrapper">
+                <div class="modal_big_bg3"><img class = "modal_big__logo" src = "../icons/logo_white.svg" alt = "logo"></div>
+                <div class="modal_big__item">
+                    <h3 class="modal_big__title">Фрахт</h3>
+                    <div class="modal_big__descr">Перечень услуг:
+                        <ul>
+                            <li>фрахтование морских судов;</li>
+                            <li>контроль за погрузкой или выгрузкой груза;</li>
+                            <li>брокерские услуги;</li>
+                            <li>мониторинг движения груза;</li>
+                            <li>урегулирование спорных вопросов с фрахтователями, судовладельцами и портовыми службами;</li>
+                            <li>выбор страховщика груза;</li>
+                        </ul>
+                    </div>
+                    <button class="btn get-offer get-offer_big">Предложение</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+<script src = "../js/jquery.min.js"></script>
+<script src = "../js/jquery.validate.min.js"></script>
+<script src = "../js/script.js"></script>
+</html>
